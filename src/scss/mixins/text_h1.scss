@@ -1,0 +1,13 @@
+@mixin text_h1 {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #081f32;
+  margin-left: 30px;
+  @media screen and (min-width: 1280px) {
+    font-size: 40px;
+    line-height: 46px;
+  }
+}

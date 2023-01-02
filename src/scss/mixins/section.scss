@@ -1,0 +1,20 @@
+@mixin section {
+  display: flex;
+  flex-flow: row;
+  width: 400px;
+  height: 128px;
+  border-radius: 16px;
+  background-color: var(--background_section);
+  margin: 0px 78px 32px 98px;
+  @media screen and (min-width: 768px) {
+    flex-direction: column;
+    width: 318px;
+    height: 400px;
+  }
+  @media screen and (min-width: 1280px) {
+    flex-direction: row;
+    width: 1002px;
+    height: 400px;
+    margin: 111px 139px 32px 139px;
+  }
+}

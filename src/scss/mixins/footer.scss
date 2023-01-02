@@ -1,0 +1,18 @@
+@mixin footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 25px 16px 24px;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 35px;
+    .flex-end {
+      margin-left: 238px;
+    }
+  }
+}

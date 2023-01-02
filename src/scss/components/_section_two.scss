@@ -1,0 +1,26 @@
+.section_two {
+  @include section;
+}
+.item_3 {
+  background: linear-gradient(135deg, #f395ba 0%, #fed182 100%);
+  width: var(--size_img);
+  height: var(--size_img);
+  border-radius: 16px 0px 0px 16px;
+  img {
+    margin: var(--margin_img);
+    width: 77px;
+    height: 78px;
+  }
+}
+.item_4 {
+  p {
+    @include text_p;
+    span {
+      padding-left: 55px;
+      font-size: 11px;
+    }
+  }
+  h1 {
+    @include text_h1;
+  }
+}

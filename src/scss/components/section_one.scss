@@ -1,0 +1,38 @@
+.section_one {
+  @include section;
+  margin-top: 111px;
+}
+.item_1 {
+  background-color: #bcd1ff;
+  width: var(--size_img);
+  height: var(--size_img);
+  border-radius: 16px 0px 0px 16px;
+  img {
+    margin: var(--margin_img);
+    width: 74px;
+    height: 76px;
+  }
+}
+.item_2 {
+  p {
+    @include text_p;
+    span {
+      padding-left: 55px;
+      font-size: 11px;
+    }
+  }
+  h1 {
+    @include text_h1;
+  }
+}
+.item_text {
+  @include text_item;
+  display: none;
+}
+.footer {
+  @include footer;
+  a {
+    color: var(--color_a);
+    padding-left: 8px;
+  }
+}
